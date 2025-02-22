@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        Scotty
+        <span style="color: #f68205; text-shadow: #000 1px 1px 2px"
+          >Intondi</span
+        >
+        
+      </div>
+      <div  id="night-mode" onclick="nightMode()"></div>
+      
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div
+        class="burger-menu"
+        onclick="toggleMenu()"
+      >
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <ul class="nav-links-mobile">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+    <div id="about"><img src="assets/IMG_20210721_104718.jpg" width="40%"/>
+      <section >
+        <h2>About Me</h2>
+        <p>
+          &nbsp;&nbsp;As an embedded systems engineer, I specialize in designing and optimizing
+           hardware and software solutions for a wide range of applications. With a strong 
+           foundation in programming languages such as C, C++, and Python, along with experience 
+           in microcontroller and FPGA development, I bring creative problem-solving to each project. 
+           My work involves collaborating with cross-functional teams to deliver reliable, efficient, 
+           and scalable systems. Passionate about innovation, I continuously strive to stay ahead of
+            emerging technologies, ensuring my solutions are both cutting-edge and practical. I'm dedicated 
+            to pushing the boundaries of embedded systems engineering to drive impactful results.
+        </p>
+      </section></div>
+    
+    <section id="experience">
+      <h2>Experience</h2>
+      <div >
+        <div>
+          <h3>Front-End Developer</h3>
+          <p>2019 - 2020</p>
+          <p>
+            &nbsp;&nbsp; I worked as a front-end developer at a small web design firm. I
+            was responsible for creating the front-end of websites using HTML,
+            CSS, and JavaScript. I also worked closely with the design team to
+            ensure that the websites were visually appealing and user-friendly.
+          </p>
+        </div>
+        <div>
+          <h3>Back-End Developer</h3>
+          <p>2020 - Present</p>
+          <p>
+            &nbsp;&nbsp;I currently work as a back-end developer at a medium-sized
+            software company. I am responsible for creating the back-end of
+            web applications using Node.js, Express, and MongoDB. I also work
+            closely with the front-end developers to ensure that the
+            applications are fast and responsive.
+          </p>
+        </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

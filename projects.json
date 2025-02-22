@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "name": "T-Deck-DEV",
+      "image": "./assets/IMG_4620.jpg",
+      "description": "This project displays how to build an operating system using LVGL version 9.2.2 Other things include intergration with device hub project to give local cloud-based server to view and diagnose your devices. The project is still in development and will be updated as time goes on.",
+      "codeLink": "https://github.com/intondiscott/T-Deck-DEV"
+    },
+    {
+      "name": "Device Hub",
+      "image": "./assets/Screenshot from 2025-02-09 20-11-21.png",
+      "description": "Device hub is a cloud/local-based server hosted by yourself to view and diagnose your devices. At the moment you can add a device and with one of my MCUs such as M5Core2, the device's monitoring is updated onto the server. This will evolve in due time to where apps will be hosted for the TDeck project I have been working on. The next thing to be updated here will be an iMessage clone to keep messages sent from LoRa to the cloud .",
+      "codeLink": "https://github.com/intondiscott/device-hub"
+    },
+    {
+      "name": "Appointment Tracking System",
+      "image": "./assets/example1.png",
+      "description": "Appointment Tracking System is a web application that allows employees to create services and customer accounts. The employees can then schedule appointments for the customers. The customers can then view their appointments and the services they have scheduled. The employees can also view the appointments they have scheduled. The application is built using the MERN stack. Technologies used include MongoDB, Nextjs, Node.js,Oauth, and Docker.",
+      "codeLink": "https://github.com/intondiscott/Appointment-Tracking-System"
+    }
+  ]
+}
