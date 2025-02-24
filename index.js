@@ -14,7 +14,7 @@ const getData = async () => {
 
 const returnedData = async () => {
   const data = await getData();
-  project = document.querySelector(".projects");
+  project = document.querySelector("#projects");
 
   data.map((item) => {
     projectContainer = document.createElement("div");

@@ -24,14 +24,7 @@
 .dark #night-mode {
   background-image: url("assets/sky.png");
   background-size: 40px;
-  animation: fadeIn 1s ease;
-}
-
-.dark .project {
-  box-shadow: #ffffff 1px 1px 2px;
-  border: 1px solid #ffffff;
-  color: black;
-  background-color: #fff;
+  animation: rotation-night-mode 1s ease;
 }
 
 nav {
@@ -87,12 +80,18 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.projects {
+#projects {
   display: flex;
   margin-top: 10px;
   gap: 10px;
   justify-content: space-around;
   flex-wrap: wrap;
+  height: auto;
+}
+
+.project {
+  background-color: hsl(0, 0%, 77%);
+  color: #fff;
 }
 
 .project:hover {
@@ -103,7 +102,7 @@ a:hover {
 }
 
 .dark .project:hover {
-  box-shadow: hsl(243, 34%, 53%) 3px 5px 10px;
+  box-shadow: hsl(0, 0%, 77%) 3px 5px 10px;
 }
 
 .project img {
@@ -114,11 +113,12 @@ a:hover {
 .project {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 10px;
-  border: 2px solid #000;
-  width: 350px;
+
+  width: 550px;
   height: auto;
+  margin: 10px;
 }
 
 .project h3 {
@@ -132,12 +132,11 @@ a:hover {
 }
 
 .project button {
-  width: 100%;
-  height: 40px;
-  margin-top: auto;
-  margin-bottom: 0;
-  font-weight: 800;
-  border-radius: 7px;
+  width: 90%;
+  margin: 10px;
+  margin-left: 17px;
+  padding: 10px;
+  border-radius: 5px;
   border: 1px solid #000;
   background-color: #f68205;
   color: #000;
@@ -160,13 +159,74 @@ a:hover {
   align-items: center;
 }
 
+#logo-animation {
+  border: #f68205 30px solid;
+  width: 305px;
+  height: 300px;
+  position: absolute;
+
+  z-index: -1;
+  animation: rotation-logo 5s infinite alternate-reverse;
+  border-radius: 50%;
+}
+
 #about > img {
   margin-right: 10px;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: #f68205 2px solid;
+  border: hsl(31, 96%, 49%) 2px solid;
   margin-bottom: 10px;
+}
+
+#contact {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #c4c4c4;
+  color: #fff;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+#contact:hover {
+  background-color: hsl(243, 34%, 53%);
+
+  box-shadow: hsl(243, 34%, 53%) 3px 5px 10px;
+}
+
+.dark #contact:hover {
+  background-color: hsl(243, 34%, 53%);
+
+  box-shadow: hsl(0, 0%, 77%) 3px 5px 10px;
+}
+
+#contact input,
+label,
+button {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+#contact form > input,
+#contact form > textarea {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+#contact textarea {
+  width: 90%;
+}
+
+#contact form > button {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #f68205;
+  color: #000;
 }
 
 .open > .lines:nth-child(1) {
@@ -219,7 +279,26 @@ a:hover {
   }
 }
 
-@keyframes fadeIn {
+@keyframes rotation-logo {
+  0% {
+    transform: rotate(0deg);
+    width: 300px;
+  }
+  30% {
+    width: 280px;
+  }
+  60% {
+    width: 250px;
+    height: 310px;
+  }
+  100% {
+    transform: rotate(360deg);
+    width: 290px;
+    height: 300px;
+  }
+}
+
+@keyframes rotation-night-mode {
   from {
     transform: rotate(0deg);
   }
