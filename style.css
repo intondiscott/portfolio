@@ -133,6 +133,7 @@ a:hover {
 
 .project button {
   width: 90%;
+
   margin: 10px;
   margin-left: 17px;
   padding: 10px;
@@ -141,6 +142,13 @@ a:hover {
   background-color: #f68205;
   color: #000;
 }
+
+.project a {
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+
 .open > .nav-links-mobile {
   margin-top: 10px;
   display: inline;
@@ -152,6 +160,21 @@ a:hover {
 #contact {
   margin: 10px;
   line-height: 2;
+}
+
+#download-cv {
+  border: #f68205 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#download-cv img {
+  margin-left: 2px;
+  animation: floating 2s infinite;
+}
+
+#icon img {
+  transform: translateY(14px);
 }
 
 #about {
@@ -304,5 +327,17 @@ button {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
