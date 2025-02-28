@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "T-Deck-DEV",
-      "image": "./assets/IMG_4620.jpg",
+      "image": "./assets/IMG_4634.gif",
       "description": "This project displays how to build an operating system using LVGL version 9.2.2 Other things include intergration with device hub project to give local cloud-based server to view and diagnose your devices. The project is still in development and will be updated as time goes on.",
       "codeLink": "https://github.com/intondiscott/T-Deck-DEV"
     },
