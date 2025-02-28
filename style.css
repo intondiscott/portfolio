@@ -261,8 +261,7 @@ button {
   transform: translate(2px, 11px) rotate(45deg);
 }
 .open > .lines:nth-child(2) {
-  transform: translate(91px, 70px) rotate(90deg);
-  width: 160px;
+  transform: translate(1px, 5px) rotate(45deg);
 }
 .open > .lines:nth-child(3) {
   transform: translate(0px, 0px) rotate(-45deg);
