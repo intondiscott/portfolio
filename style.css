@@ -97,12 +97,11 @@ a:hover {
 .project:hover {
   background-color: hsl(243, 34%, 53%);
 
-  color: #fff;
-  box-shadow: hsl(243, 34%, 53%) 3px 5px 10px;
-}
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
-.dark .project:hover {
-  box-shadow: hsl(0, 0%, 77%) 3px 5px 10px;
+  color: #fff;
 }
 
 .project img {
@@ -205,56 +204,6 @@ a:hover {
   border-radius: 50%;
   border: hsl(31, 96%, 49%) 2px solid;
   margin-bottom: 10px;
-}
-
-#contact {
-  border-radius: 10px;
-  padding: 10px;
-  background-color: #c4c4c4;
-  color: #fff;
-  margin: 20px;
-  margin-top: 10px;
-}
-
-#contact:hover {
-  background-color: hsl(243, 34%, 53%);
-
-  box-shadow: hsl(243, 34%, 53%) 3px 5px 10px;
-}
-
-.dark #contact:hover {
-  background-color: hsl(243, 34%, 53%);
-
-  box-shadow: hsl(0, 0%, 77%) 3px 5px 10px;
-}
-
-#contact input,
-label,
-button {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-}
-#contact form > input,
-#contact form > textarea {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #000;
-}
-
-#contact textarea {
-  width: 90%;
-}
-
-#contact form > button {
-  margin: 10px;
-  padding: 10px;
-  width: 90%;
-  border-radius: 5px;
-  border: 1px solid #000;
-  background-color: #f68205;
-  color: #000;
 }
 
 .open > .lines:nth-child(1) {
