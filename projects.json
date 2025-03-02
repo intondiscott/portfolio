@@ -17,6 +17,24 @@
       "image": "./assets/example1.png",
       "description": "Appointment Tracking System is a web application that allows employees to create services and customer accounts. The employees can then schedule appointments for the customers. The customers can then view their appointments and the services they have scheduled. The employees can also view the appointments they have scheduled. The application is built using the MERN stack. Technologies used include MongoDB, Nextjs, Node.js,Oauth, and Docker.",
       "codeLink": "https://github.com/intondiscott/Appointment-Tracking-System"
+    },
+    {
+      "name": "M5 Core2",
+      "image": "./assets/m5core2.gif",
+      "description": "This project displays how to build an operating system using LVGL version 9.2.2 Other things include intergration with device hub project to give local cloud-based server to view and diagnose your devices. The project is still in development and will be updated as time goes on",
+      "codeLink": "https://github.com/intondiscott/m5-core2"
+    },
+    {
+      "name": "WT-32-SC-01-DEV",
+      "image": "./assets/SC01.gif",
+      "description": "This project displays how to build an operating system using LVGL version 9.2.2 Other things include intergration with device hub project to give local cloud-based server to view and diagnose your devices. The project is still in development and will be updated as time goes on",
+      "codeLink": "https://github.com/intondiscott/WT-32-SC-01-DEV"
+    },
+    {
+      "name": "CS-330-H7040-Comp-Graphic-and-Visualization",
+      "image": "./assets/MeshOut.png",
+      "description": "This class was to learn how graphics are rendered on the GPU using the openGL library. Techniques used to complete project were OOP and DSA to help with performance and rendering meshes.",
+      "codeLink": "https://github.com/intondiscott/CS-330-H7040-Comp-Graphic-and-Visualization"
     }
   ]
 }
