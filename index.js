@@ -25,6 +25,7 @@ const returnedData = async () => {
     projectButton = document.createElement("button");
     projectLink = document.createElement("a");
     projectContainer.classList.add("project");
+    projectImage.classList.add("project-img");
     projectName.innerHTML = item.name;
     projectImage.src = item.image;
     projectDescription.innerHTML = item.description;
